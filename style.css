@@ -74,7 +74,7 @@
     padding-top: 14px;
 }
 .navbar-content > h2 {
-    color: white;
+    color: black;
 }
 .navbar-list {
     display: flex;
@@ -441,4 +441,9 @@ textarea {
   }
     /*Mobile view for contactus is end*/
 
-   
+   @media (min-width=481px)and(max-width=767px) {
+       .row{
+           display: flex;
+           flex-direction: column;
+       }
+   }
