@@ -112,6 +112,6 @@ console.log(arr1)
 // console.log(tag)
 
 
-var res=document.querySelectorAll(".about-section");
+var res=document.querySelectorAll("");
 delete res.innerHTML
 console.log(res);
