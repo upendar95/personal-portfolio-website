@@ -28,12 +28,12 @@
      font-size: 16px;
      line-height: 1.5;
      color:var(--blue-dark);
-     padding:5vh 15px;
+     /* padding:5vh 15px; */
      font-family: 'Poppins', sans-serif;
  }
  .main{
      max-width:1200px;
-     margin:auto;
+     /* margin:auto; */
  }
  section{
      background-color:var(--white-alpha-25);
@@ -44,7 +44,7 @@
      flex-direction: column;
      justify-items: center;
      justify-content: space-evenly;
-     margin-top: 50px;
+     /* margin-top: 50px; */
  }
  /*nav bar start*/
  .nav-section{
@@ -60,12 +60,7 @@
     border-radius: 30px;
     width: 100%;
     height: 60px;
-    position: fixed;
-    top:0;
-    left: 20;
-    right: 100;
-    opacity: 1;
-
+   
 }
 .navbar-content {
     display: flex;
