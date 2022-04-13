@@ -80,7 +80,7 @@ var arr2=arr1.filter((element)=>element<=2);
 console.log(arr2);
 var vfx=arr2.map((element)=>element*5)
 console.log(vfx);
-var arr3=arr2.fill(value:3,)
+var arr3=arr2.fill()
 console.log(arr3);
 // var splicedValue=arr.splice(1);
 // console.log(splicedValue);
@@ -105,10 +105,13 @@ console.log(arr1)
 // }
 
 // console.log(product.cloths);
-let tag=document.createElement("a");
-let attribute=document.createAttribute("href");
-tag.append("attribute");
-tag.re
-console.log(tag)
+// let tag=document.createElement("a");
+// let attribute=document.createAttribute("href");
+// tag.append("attribute");
+// tag.re
+// console.log(tag)
 
 
+var res=document.querySelectorAll(".about-section");
+delete res.innerHTML
+console.log(res);
