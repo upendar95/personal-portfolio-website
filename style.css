@@ -28,14 +28,14 @@
      font-size: 16px;
      line-height: 1.5;
      color:var(--blue-dark);
-     /* padding:5vh 15px; */
      font-family: 'Poppins', sans-serif;
  }
  .main{
-     max-width:1200px;
-     /* margin:auto; */
- }
+    max-width:1200px;
+     margin:auto;
+ } 
  section{
+    max-width:1200px;
      background-color:var(--white-alpha-25);
      border:1px solid var(--white-alpha-40);
      min-height:90vh;
@@ -44,7 +44,8 @@
      flex-direction: column;
      justify-items: center;
      justify-content: space-evenly;
-     /* margin-top: 50px; */
+     padding:5vh 15px;
+     
  }
  /*nav bar start*/
  .nav-section{
@@ -436,9 +437,4 @@ textarea {
   }
     /*Mobile view for contactus is end*/
 
-   @media (min-width=481px)and(max-width=767px) {
-       .row{
-           display: flex;
-           flex-direction: column;
-       }
-   }
+ 

@@ -111,7 +111,4 @@ console.log(arr1)
 // tag.re
 // console.log(tag)
 
-
-var res=document.querySelectorAll("");
-delete res.innerHTML
 console.log(res);
